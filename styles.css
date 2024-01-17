@@ -20,12 +20,20 @@ header {
     text-decoration: none;
     font-size: 4vh;
     display: flex;
+    transition: 0.5s ease-in-out;
+    margin-top: 10vh;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    color: red;
 }
 
 li{
     display: inline-block;
     justify-content: flex-end;
     padding: 1.5rem;
+    
 }
 h1{
     font-size: 2.5rem;
@@ -40,12 +48,15 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
-    margin-left: 5%;
+    margin-top: 40vh;
+    margin-left: 30vh;
     flex-wrap: wrap;
     padding: 1.5%;
-    border-color:black;
+    border: none;
     max-width: 40%;
+    transition: 0.2s ease-in-out;
+
 }
-
-
+.Home:hover{
+  transform: scale(1.1);
+}

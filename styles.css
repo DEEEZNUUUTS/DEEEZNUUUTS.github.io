@@ -1,0 +1,11 @@
+header {
+    width: 100vw;
+    background-color:#060202;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px groove gray;
+    z-index: 15;
+    position: fixed;
+  }

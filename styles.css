@@ -1,11 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+body{
+    background-color: black;
+   }
 header {
-    width: 100vw;
-    background-color:#060202;
-    top: 0;
-    left: 0;
+    background-color: #0C090A;
     display: flex;
+    height: 15%;
     justify-content: flex-end;
-    border-bottom: 2px groove gray;
-    z-index: 15;
-    position: fixed;
+    align-items: flex-end;
+    border-bottom:5px #FFFFFF;
+   
   }
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+li{
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 1.5rem;
+}
